@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <body>
+  <button style=background.color:blue>
+  <button type="button" id='mybtn' onClick="myFunction()">Click here</button>
+  
 <p>Hello, my name is Alfred and I go to Drexel University.</p>
+  <script>
+    function myFunction()
+    {
+      var x=document.getElementById("myBtn");
+      x.disabled = false;
+    }
+  </script>
 </body>
 </html>
